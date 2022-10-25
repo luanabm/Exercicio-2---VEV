@@ -1,6 +1,6 @@
-from src.entities.Fatura import Fatura
-from src.enums.TipoFatura import TipoFatura
-from src.usecases.GeradorNF import GeradorNF
+from src.Fatura import Fatura
+from src.TipoFatura import TipoFatura
+from src.GeradorNF import GeradorNF
 
 def test_gera_nota_fiscal():
   nome_cliente = "Carlos"
