@@ -1,4 +1,4 @@
-from src.enums.TipoFatura import TipoFatura
+from src.TipoFatura import TipoFatura
 
 class Fatura:
   def __init__(self, cliente: str, endereco: str, tipo: TipoFatura, valor: int) -> None:
