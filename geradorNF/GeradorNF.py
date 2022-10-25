@@ -1,6 +1,6 @@
-from src.enums.TipoFatura import TipoFatura
-from src.entities.Fatura import Fatura
-from src.entities.NotaFiscal import NotaFiscal
+from src.TipoFatura import TipoFatura
+from src.Fatura import Fatura
+from src.NotaFiscal import NotaFiscal
 
 class GeradorNF:
   def execute(self, fatura: Fatura) -> NotaFiscal:
