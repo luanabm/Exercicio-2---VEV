@@ -1,6 +1,6 @@
 # Exercicio-2 - VEV - Aplicando TDD
 
-## Especificação escolhida
+## Especificações escolhidas
 
 - Calculadora de Salário
 - Gerador de Nota Fiscal
