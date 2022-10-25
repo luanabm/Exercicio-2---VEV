@@ -1,4 +1,4 @@
-from src.entities.NotaFiscal import NotaFiscal
+from src.NotaFiscal import NotaFiscal
 
 class NFRepository:
   def salva(self, nf: NotaFiscal) -> bool:
