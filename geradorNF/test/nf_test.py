@@ -1,7 +1,7 @@
-from src.repositories.NFRepository import NFRepository
-from src.enums.TipoFatura import TipoFatura
-from src.entities.Fatura import Fatura
-from src.usecases.GeradorNF import GeradorNF
+from src.NFRepository import NFRepository
+from src.TipoFatura import TipoFatura
+from src.Fatura import Fatura
+from src.GeradorNF import GeradorNF
 
 
 def deve_salvar_nf_no_banco():
